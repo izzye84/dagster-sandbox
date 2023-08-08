@@ -7,6 +7,9 @@ setup(
         "dagster",
         "dagster-cloud",
         "Faker==18.4.0",
+        "pandas",
+        "matplotlib",
+        "dagster-duckdb-pandas",
     ],
     extras_require={"dev": ["dagster-webserver", "pytest"]},
 )
